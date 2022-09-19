@@ -9,6 +9,7 @@
     "url": "git://github.com/WiseLibs/better-sqlite3.git"
   },
   "main": "lib/index.js",
+  "types": "types.d.ts",
   "files": [
     "binding.gyp",
     "src/*.[ch]pp",
@@ -20,6 +21,7 @@
     "prebuild-install": "^7.1.0"
   },
   "devDependencies": {
+    "@types/node": "^18.7.18",
     "chai": "^4.3.6",
     "cli-color": "^2.0.2",
     "fs-extra": "^10.1.0",
@@ -53,8 +55,8 @@
     "database"
   ],
   "overrides": {
-     "prebuild": {
-       "node-gyp": "$node-gyp"
-     }
-   }
+    "prebuild": {
+      "node-gyp": "$node-gyp"
+    }
+  }
 }

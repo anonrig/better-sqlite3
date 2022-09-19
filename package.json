@@ -9,7 +9,7 @@
     "url": "git://github.com/WiseLibs/better-sqlite3.git"
   },
   "main": "lib/index.js",
-  "types": "types.d.ts",
+  "types": "lib/types.d.ts",
   "files": [
     "binding.gyp",
     "src/*.[ch]pp",

@@ -2,11 +2,11 @@
   "name": "@anonrig/better-sqlite3",
   "version": "7.7.5",
   "description": "The fastest and simplest library for SQLite3 in Node.js.",
-  "homepage": "http://github.com/WiseLibs/better-sqlite3",
+  "homepage": "https://github.com/anonrig/better-sqlite3",
   "author": "Joshua Wise <joshuathomaswise@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/WiseLibs/better-sqlite3.git"
+    "url": "git://github.com/anonrig/better-sqlite3.git"
   },
   "main": "lib/index.js",
   "types": "lib/types.d.ts",

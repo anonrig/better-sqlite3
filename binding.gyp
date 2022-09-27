@@ -4,6 +4,7 @@
 
 {
   'includes': ['deps/common.gypi'],
+  'variables': { 'openssl_fips': 0 },
   'targets': [
     {
       'target_name': 'better_sqlite3',

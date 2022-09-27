@@ -4,7 +4,7 @@
 # ===
 
 {
-  'variables': { 'sqlite3%': '' },
+  'variables': { 'sqlite3%': '', 'openssl_fips': 0 },
   'target_defaults': {
     'default_configuration': 'Release',
     'msvs_settings': {

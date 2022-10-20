@@ -26,6 +26,7 @@
     "cli-color": "^2.0.3",
     "fs-extra": "^10.1.0",
     "mocha": "^10.1.0",
+    "node-abi": "^3.28.0",
     "node-gyp": "9.3.0",
     "nodemark": "^0.3.0",
     "prebuild": "^11.0.4",
